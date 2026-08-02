@@ -1,0 +1,34 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project
+collecting ... collected 26 items
+
+tests/test_delay.py::test_constant_delay_returns_fixed_step_count PASSED [  3%]
+tests/test_delay.py::test_random_delay_averages_to_expected_mean PASSED  [  7%]
+tests/test_delay.py::test_random_delay_never_negative PASSED             [ 11%]
+tests/test_fuzzy_layer.py::test_fuzzy_corrector_builds_without_error PASSED [ 15%]
+tests/test_fuzzy_layer.py::test_large_negative_error_increases_kp PASSED [ 19%]
+tests/test_fuzzy_layer.py::test_large_positive_error_decreases_kp PASSED [ 23%]
+tests/test_fuzzy_layer.py::test_zero_error_gives_near_zero_correction PASSED [ 26%]
+tests/test_fuzzy_layer.py::test_fuzzy_pid_controller_runs_end_to_end PASSED [ 30%]
+tests/test_metrics.py::test_mean_space_error PASSED                      [ 34%]
+tests/test_metrics.py::test_mean_max_space_error PASSED                  [ 38%]
+tests/test_metrics.py::test_all_metrics_returns_all_three_keys PASSED    [ 42%]
+tests/test_pid_controller.py::test_valid_gains_pass_stability_check PASSED [ 46%]
+tests/test_pid_controller.py::test_paper_baseline_fails_its_own_stability_condition PASSED [ 50%]
+tests/test_pid_controller.py::test_kp_must_be_positive PASSED            [ 53%]
+tests/test_pid_controller.py::test_pid_accelerates_when_trailing_too_far_behind PASSED [ 57%]
+tests/test_pid_controller.py::test_pid_decelerates_when_too_close PASSED [ 61%]
+tests/test_platoon_sim.py::test_output_shapes_are_correct PASSED         [ 65%]
+tests/test_platoon_sim.py::test_string_stability_with_eq13_valid_gains PASSED [ 69%]
+tests/test_platoon_sim.py::test_paper_baseline_error_grows_over_time PASSED [ 73%]
+tests/test_spacing.py::test_desired_spacing_grows_with_velocity PASSED   [ 76%]
+tests/test_spacing.py::test_zero_error_when_gap_matches_desired_spacing PASSED [ 80%]
+tests/test_spacing.py::test_positive_error_when_gap_too_large PASSED     [ 84%]
+tests/test_spacing.py::test_negative_error_when_gap_too_small PASSED     [ 88%]
+tests/test_vehicle_model.py::test_first_order_lag_reaches_63_percent_after_one_tau PASSED [ 92%]
+tests/test_vehicle_model.py::test_first_order_lag_reaches_99_percent_after_five_tau PASSED [ 96%]
+tests/test_vehicle_model.py::test_zero_input_keeps_vehicle_at_rest PASSED [100%]
+
+============================= 26 passed in 16.81s ==============================

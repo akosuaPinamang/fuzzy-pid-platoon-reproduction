@@ -1,0 +1,122 @@
+[
+  {
+    "tau": 0.1,
+    "controller": "PID",
+    "Ep": 0.0083,
+    "Mp": 0.0924
+  },
+  {
+    "tau": 0.1,
+    "controller": "Fuzzy-PID",
+    "Ep": 0.0091,
+    "Mp": 0.0971
+  },
+  {
+    "tau": 0.2,
+    "controller": "PID",
+    "Ep": 0.0085,
+    "Mp": 0.1487
+  },
+  {
+    "tau": 0.2,
+    "controller": "Fuzzy-PID",
+    "Ep": 0.0091,
+    "Mp": 0.1531
+  },
+  {
+    "tau": 0.3,
+    "controller": "PID",
+    "Ep": 0.0182,
+    "Mp": 0.2117
+  },
+  {
+    "tau": 0.3,
+    "controller": "Fuzzy-PID",
+    "Ep": 0.0172,
+    "Mp": 0.2137
+  },
+  {
+    "tau": 0.4,
+    "controller": "PID",
+    "Ep": 0.0618,
+    "Mp": 0.2881
+  },
+  {
+    "tau": 0.4,
+    "controller": "Fuzzy-PID",
+    "Ep": 0.0609,
+    "Mp": 0.3099
+  },
+  {
+    "tau": 0.5,
+    "controller": "PID",
+    "Ep": 0.2647,
+    "Mp": 1.1391
+  },
+  {
+    "tau": 0.5,
+    "controller": "Fuzzy-PID",
+    "Ep": 0.2347,
+    "Mp": 1.0324
+  },
+  {
+    "tau": 0.6,
+    "controller": "PID",
+    "Ep": 5.9691,
+    "Mp": 58.05
+  },
+  {
+    "tau": 0.6,
+    "controller": "Fuzzy-PID",
+    "Ep": 4.878,
+    "Mp": 53.8132
+  },
+  {
+    "tau": 0.7,
+    "controller": "PID",
+    "Ep": 47.6283,
+    "Mp": 627.4561
+  },
+  {
+    "tau": 0.7,
+    "controller": "Fuzzy-PID",
+    "Ep": 41.6964,
+    "Mp": 549.2976
+  },
+  {
+    "tau": 0.8,
+    "controller": "PID",
+    "Ep": 209.0521,
+    "Mp": 3134.7835
+  },
+  {
+    "tau": 0.8,
+    "controller": "Fuzzy-PID",
+    "Ep": 188.4784,
+    "Mp": 3273.3091
+  },
+  {
+    "tau": 0.9,
+    "controller": "PID",
+    "Ep": 660.9809,
+    "Mp": 14552.2963
+  },
+  {
+    "tau": 0.9,
+    "controller": "Fuzzy-PID",
+    "Ep": 609.2282,
+    "Mp": 13284.4123
+  },
+  {
+    "tau": 1.0,
+    "controller": "PID",
+    "Ep": 1707.1479,
+    "Mp": 34915.3805
+  },
+  {
+    "tau": 1.0,
+    "controller": "Fuzzy-PID",
+    "Ep": 1555.5381,
+    "Mp": 30476.3107
+  }
+]

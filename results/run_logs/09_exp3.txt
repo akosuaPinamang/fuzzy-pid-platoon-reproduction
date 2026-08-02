@@ -1,0 +1,4 @@
+Lead-2nd vehicle spacing error range:
+  Plain PID:  [-1.139, 1.043] m   (paper: -0.6 to 0.6 m)
+  Fuzzy-PID:  [-1.032, 0.937] m   (paper: -0.23 to 0.58 m)
+Saved plot to /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/experiments/../plots/exp3_fuzzy_vs_pid.png

@@ -1,0 +1,83 @@
+[
+  {
+    "experiment": "exp1_single_vehicle_pid",
+    "controller": "PID",
+    "spacing_error_min_m": -1.139,
+    "spacing_error_max_m": 1.043,
+    "final_velocity_mps": 20.372,
+    "target_velocity_mps": 20,
+    "time_to_19.9_mps_s": 24.15,
+    "paper_reference_spacing_error_range_m": [
+      -0.6,
+      0.6
+    ]
+  },
+  {
+    "experiment": "exp2_platoon_baseline_pid",
+    "controller": "PID",
+    "vehicle_pair": "Lead-2nd",
+    "spacing_error_min_m": -1.139,
+    "spacing_error_max_m": 1.043,
+    "peak_abs_error_10_30s_window_m": 0.561
+  },
+  {
+    "experiment": "exp2_platoon_baseline_pid",
+    "controller": "PID",
+    "vehicle_pair": "2nd-3rd",
+    "spacing_error_min_m": -10.635,
+    "spacing_error_max_m": 12.002,
+    "peak_abs_error_10_30s_window_m": 4.402
+  },
+  {
+    "experiment": "exp2_platoon_baseline_pid",
+    "controller": "PID",
+    "vehicle_pair": "3rd-4th",
+    "spacing_error_min_m": -54.853,
+    "spacing_error_max_m": 49.452,
+    "peak_abs_error_10_30s_window_m": 13.198
+  },
+  {
+    "experiment": "exp7_heterogeneous_platoon",
+    "controller": "PID",
+    "vehicle_pair": "Vehicle 1-2",
+    "Ep_ours": 31.568,
+    "Ep_paper": 0.1458,
+    "Mp_ours": 209.0072,
+    "Mp_paper": 0.7332,
+    "sigma_p_ours": 41.6012,
+    "sigma_p_paper": 0.1284
+  },
+  {
+    "experiment": "exp7_heterogeneous_platoon",
+    "controller": "PID",
+    "vehicle_pair": "Vehicle 2-3",
+    "Ep_ours": 377525.8842,
+    "Ep_paper": 0.1149,
+    "Mp_ours": 9503889.5681,
+    "Mp_paper": 0.5314,
+    "sigma_p_ours": 1254343.5201,
+    "sigma_p_paper": 0.1334
+  },
+  {
+    "experiment": "exp7_heterogeneous_platoon",
+    "controller": "PID",
+    "vehicle_pair": "Vehicle 3-4",
+    "Ep_ours": 8145829.2287,
+    "Ep_paper": 0.1115,
+    "Mp_ours": 235709450.5675,
+    "Mp_paper": 0.5225,
+    "sigma_p_ours": 30236607.8041,
+    "sigma_p_paper": 0.1303
+  },
+  {
+    "experiment": "exp7_heterogeneous_platoon",
+    "controller": "PID",
+    "vehicle_pair": "platoon-wide",
+    "Ep_ours": 2841128.8936,
+    "Ep_paper": 0.1307,
+    "Mp_ours": 81737849.7143,
+    "Mp_paper": 0.5957,
+    "sigma_p_ours": 10496997.6418,
+    "sigma_p_paper": 0.1367
+  }
+]

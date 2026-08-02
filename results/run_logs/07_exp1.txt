@@ -1,0 +1,12 @@
+Stability check on paper's baseline: stable=False
+  - kd must be > kp (got kd=0.5, kp=2.0)
+  - ki must satisfy 0 < ki < -7.5000 (got ki=3.0)
+Proceeding to simulate anyway with the paper's literal baseline,
+since the real test is whether the simulated behaviour is bounded
+and matches Figure 5, not whether it satisfies Eq 13 on paper.
+
+Spacing error range: [-1.139, 1.043] m (paper's Figure 5a shows roughly [-0.6, 0.6] m)
+Final velocity: 20.372 m/s (target 20 m/s)
+Time to reach 19.9 m/s: 24.15s
+
+Saved plot to /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/experiments/../plots/exp1_single_vehicle_pid.png

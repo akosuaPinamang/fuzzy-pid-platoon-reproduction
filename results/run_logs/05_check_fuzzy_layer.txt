@@ -1,0 +1,3 @@
+e=-1.0 ec=-1.0: dkp=+0.706 dki=-0.706 dkd=-0.512  (NB,NB -> expect dkp=PB(+), dki=NB(-), dkd=PS(+ small))
+e=+0.0 ec=+0.0: dkp=-0.000 dki=-0.000 dkd=-0.333  (Z,Z -> expect all near zero)
+e=+1.0 ec=+1.0: dkp=-0.667 dki=+0.706 dkd=+0.333  (PB,PB -> expect dkp=NB(-), dki=PB(+), dkd=PB(+))

@@ -1,0 +1,3 @@
+Baseline (kp=2.0, ki=3.0, kd=0.5, h=1.5) stable? False
+  - kd must be > kp (got kd=0.5, kp=2.0)
+  - ki must satisfy 0 < ki < -7.5000 (got ki=3.0)

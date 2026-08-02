@@ -1,0 +1,8 @@
+Heterogeneous platoon results vs Table 4:
+Pair             Ours Ep  Paper Ep   Ours Mp  Paper Mp  Ours sig Paper sig
+Vehicle 1-2      31.5680    0.1458  209.0072    0.7332   41.6012    0.1284
+Vehicle 2-3   377525.8842    0.11499503889.5681    0.53141254343.5201    0.1334
+Vehicle 3-4   8145829.2287    0.1115235709450.5675    0.522530236607.8041    0.1303
+
+Platoon-wide: Ep=2841128.8936 (paper 0.1307), Mp=81737849.7143 (paper 0.5957), sigma_p=10496997.6418 (paper 0.1367)
+Saved plot to /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/experiments/../plots/exp7_heterogeneous_platoon.png

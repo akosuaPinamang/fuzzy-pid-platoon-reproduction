@@ -1,0 +1,3 @@
+constant_delay(0.5s): steps=50  (expect 50)
+random_delay: mean_steps=50.82 (expect ~50, since noise is symmetric around 0), min=1, max=100
+delay.py checkpoint passed

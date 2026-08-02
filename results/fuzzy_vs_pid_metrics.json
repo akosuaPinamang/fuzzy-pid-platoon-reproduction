@@ -1,0 +1,59 @@
+[
+  {
+    "scenario": "no_delay",
+    "source_experiment": "exp3_fuzzy_vs_pid",
+    "PID": {
+      "spacing_error_min_m": -1.139,
+      "spacing_error_max_m": 1.043
+    },
+    "Fuzzy-PID": {
+      "spacing_error_min_m": -1.032,
+      "spacing_error_max_m": 0.937
+    },
+    "paper_reference": {
+      "PID": {
+        "spacing_error_min_m": -0.6,
+        "spacing_error_max_m": 0.6
+      },
+      "Fuzzy-PID": {
+        "spacing_error_min_m": -0.23,
+        "spacing_error_max_m": 0.58
+      }
+    }
+  },
+  {
+    "scenario": "constant_delay_0.5s",
+    "source_experiment": "exp5_constant_delay",
+    "PID": {
+      "spacing_error_min_m": -0.989,
+      "spacing_error_max_m": 1.043
+    },
+    "Fuzzy-PID": {
+      "spacing_error_min_m": -1.032,
+      "spacing_error_max_m": 0.937
+    },
+    "paper_reference": {
+      "PID": {
+        "spacing_error_min_m": -0.6,
+        "spacing_error_max_m": 0.6
+      },
+      "Fuzzy-PID": {
+        "spacing_error_min_m": -0.27,
+        "spacing_error_max_m": 0.6
+      }
+    }
+  },
+  {
+    "scenario": "random_delay",
+    "source_experiment": "exp6_random_delay",
+    "PID": {
+      "spacing_error_min_m": -29.008,
+      "spacing_error_max_m": 26.398
+    },
+    "Fuzzy-PID": {
+      "spacing_error_min_m": -40.094,
+      "spacing_error_max_m": 40.16
+    },
+    "paper_reference": null
+  }
+]

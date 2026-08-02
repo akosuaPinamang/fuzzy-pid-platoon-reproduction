@@ -1,0 +1,5 @@
+Lead-2nd spacing error with 0.5s constant delay:
+  Plain PID:  [-0.989, 1.043] m
+  Fuzzy-PID:  [-1.032, 0.937] m
+  (paper reports roughly -0.6 to 0.6 m for PID, -0.27 to 0.6 m for fuzzy-PID)
+Saved plot to /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/experiments/../plots/exp5_constant_delay.png

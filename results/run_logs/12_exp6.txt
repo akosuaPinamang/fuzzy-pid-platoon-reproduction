@@ -1,0 +1,4 @@
+Lead-2nd spacing error with random communication delay (mean 0.5s):
+  Plain PID:  [-29.008, 26.398] m
+  Fuzzy-PID:  [-40.094, 40.160] m
+Saved plot to /Users/pinny/Documents/MSc Courses/Intelligent Sytems/platoon_project/experiments/../plots/exp6_random_delay.png
